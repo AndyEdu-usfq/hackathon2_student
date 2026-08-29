@@ -1,0 +1,54 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache y artefactos
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pdm-build/
+
+# Distribución / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage / test reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# uv / pip cache (si aplica)
+.uv_cache/
+.pip-cache/
+
+# Archivos locales sensibles o de entorno
+.env
+.env.*
+
+# Compiled C extensions
+*.so
